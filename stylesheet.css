@@ -1,0 +1,65 @@
+body{
+	margin: 0;
+    background-color: black;
+}
+video{
+	margin:0;
+	width: 80%;
+    height: auto;
+}
+/*Navigation Bar*/
+ul
+{
+	position: fixed;
+	text-align: right;
+	list-style-type: none;
+    margin: 0;
+    padding: 1%;
+    overflow: hidden;
+	background-color:black;
+	z-index: 1;
+	width: 90%;
+}
+li
+{
+	display: inline;
+}
+/* defines the link for nav bar*/
+li a
+{
+	display: block;
+	color:white;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 1.5em;
+	display: inline-block;
+	text-align: center;
+}
+li a:hover{
+    color: #009688;
+}
+#tagLine{
+	font-size: 1.5em;
+	text-align: left;
+	color: #009688;
+	z-index: 1;
+	position: relative;
+	bottom: 50px;
+	left: 50px;
+	right: 50px;
+	width: 600px;
+	height: 100px;
+}
+/*
+.Section{
+	padding: 10%;
+}
+.sticky{
+	postion: fixed;
+	top: 0;
+	width: 100%;
+}
+.sticky+ .Section{
+	padding-top: 102 px;
+}
+*/
