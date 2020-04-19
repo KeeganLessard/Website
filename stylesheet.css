@@ -50,6 +50,14 @@ li a:hover{
 	width: 600px;
 	height: 100px;
 }
+H2{
+	z-index: 1;
+	color: white;
+}
+h3{
+	z-index: 1;
+	color: white;
+}
 /*
 .Section{
 	padding: 10%;
