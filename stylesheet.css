@@ -1,6 +1,8 @@
 body{
 	margin: 0;
-    background-color: black;
+	background-color: black;
+	font-family: Tahoma,Verdana,Segoe,sans-serif;
+	margin-left: 50px;
 }
 video{
 	margin:0;
@@ -19,6 +21,10 @@ ul
 	background-color:black;
 	z-index: 1;
 	width: 90%;
+}
+#icons{
+	text-align: left;
+	float: left;
 }
 li
 {
@@ -39,35 +45,24 @@ li a:hover{
     color: #009688;
 }
 #tagLine{
-	font-size: 1.5em;
+	font-size: 1.3em;
 	text-align: left;
-	color: #009688;
+	color: white;
 	z-index: 1;
 	position: relative;
-	bottom: 50px;
-	left: 50px;
+	bottom: 130px;
+	left: 0px;
 	right: 50px;
-	width: 600px;
+	width: 670px;
 	height: 100px;
 }
 H2{
-	z-index: 1;
 	color: white;
 }
-h3{
-	z-index: 1;
-	color: white;
+H3{
+	color: #009688;
+	font-size: 1.1em;
 }
-/*
-.Section{
-	padding: 10%;
-}
-.sticky{
-	postion: fixed;
-	top: 0;
-	width: 100%;
-}
-.sticky+ .Section{
-	padding-top: 102 px;
-}
-*/
+html {
+	scroll-behavior: smooth;
+  }
