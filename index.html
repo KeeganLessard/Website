@@ -7,31 +7,47 @@
         <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
         <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
         <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
     <body>
-        <div id=navbar>
-        <ul>
-          <div id="icons">
-            <li><a href="https://www.buzzsprout.com/682706"><img src ="./Media/BuzzsproutTop.png"></a></li>
-            <li><a href="https://www.youtube.com/channel/UCzMQY_njgRCfNTgFxMcOs0g"><img src ="./Media/YoutubeTop.png"></a></li>
-            <li><a href="https://www.instagram.com/darkmodepodcast/"><img src ="./Media/instagramtop.png"></a></li>
-            <li><a href="https://twitter.com/darkmodepodcast"><img src ="./Media/TwitterTop.png"></a></li>
-            <li><a href="discord.gg/aGAgFBK"><img src ="./Media/Discord.png"></a></li>
-            <li><a href="https://www.patreon.com/darkmode"><img src ="./Media/Patreon.png"></a></li>
+        <div class="topnav" id="myTopnav">
+          <div id="Icons">
+            <a href= "https://www.darkmodepodcast.com"><img src="./Media/NavLogo.png" alt="logo"></a>
+            <a href="https://www.buzzsprout.com/682706"><img src ="./Media/BuzzsproutTop.png"></a>
+            <a href="https://www.youtube.com/channel/UCzMQY_njgRCfNTgFxMcOs0g"><img src ="./Media/YoutubeTop.png"></a>
+            <a href="https://www.instagram.com/darkmodepodcast/"><img src ="./Media/instagramtop.png"></a>
+            <a href="https://twitter.com/darkmodepodcast"><img src ="./Media/TwitterTop.png"></a>
+            <a href="discord.gg/aGAgFBK"><img src ="./Media/Discord.png"></a>
+            <a href="https://www.patreon.com/darkmode"><img src ="./Media/Patreon.png"></a>
           </div>
-            <li><a href="#">home</a></li>
-            <li><a href="#episodes">episodes</a></li>
-            <li><a href="#platform_nav">platforms</a></li>
-            <li><a href="#socials_nav">socials</a></li>
-            <li><a href="#donate">donate</a></li>
-            <img src="./Media/NavLogo.png" alt="logo">
-        </ul>
+          <div id="Text">
+          <a href="#">home</a>
+          <a href="#episodes">episodes</a>
+          <a href="#platform_nav">platforms</a>
+          <a href="#socials_nav">socials</a>
+          <a href="#donate">donate</a>
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+          </div>
+        <script>
+          function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+              x.className += " responsive";
+            } else {
+              x.className = "topnav";
+            }
+          }
+        </script>
         </div>
         <!--Video Background-->
         <div class="VideoTag">
+          <div class="Container">
           <video autoplay muted ="myVideo">
             <source src="./Media/Background.mp4"type="video/mp4">
           </video>
+          </div>
         </div>
         <!--Tagline below video-->
         <div class="Container">
