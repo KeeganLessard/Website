@@ -1,7 +1,16 @@
+html{
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	height: auto;
+	scroll-behavior: smooth;
+}
 body{
 	margin: 0;
+	padding:0;
 	background-color: black;
 	font-family: Tahoma,Verdana,Segoe,sans-serif;
+	overflow-x: hidden;
 }
 video{
 	text-align: center;
@@ -41,9 +50,6 @@ H3{
 	padding-top: 2%;
 	padding-bottom: 2%;
 }
-html {
-	scroll-behavior: smooth;
-  }
 .Container{
 	text-align: center;
 	width: 100%;
@@ -105,7 +111,7 @@ a{
 	color: #f2f2f2;
 	text-align: center;
 	text-decoration: none;
-	font-size: 150%;
+	font-size: 130%;
   }
   
   .topnav a:hover {
@@ -121,7 +127,7 @@ a{
   .topnav .icon {
 	display: none;
   }
-  
+  /*
   @media screen and (max-width: 750px) {
 	.topnav a:not(:first-child) {display: none;}
 	.topnav a.icon {
