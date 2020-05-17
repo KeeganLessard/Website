@@ -29,7 +29,8 @@ video{
 	font-family: Tahoma,Verdana,Segoe,sans-serif;
 }
 #tagLine{
-	font-size: 150%;
+	font-size: 100%;
+	text-align: center;
 	color: white;
 	z-index: 1;
 	width: 100%;
@@ -80,7 +81,7 @@ H3{
 	display: inline-block;
 }
 a{
-	padding: 20px;
+	padding: 15px;
 }
 #episodes{
 	padding: 3%;
@@ -92,7 +93,7 @@ a{
 	padding: 3%;
 }
 #platforms{
-	width: 100%;
+	width: 90%;
 }
 .topnav {
 	overflow: hidden;
