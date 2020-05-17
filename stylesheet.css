@@ -68,7 +68,7 @@ H3{
 }
 #latest{
 	display: inline-block;
-	width: 90%;
+	width: 100%;
 }
 #platforms{
 	display: inline-block;
@@ -149,3 +149,4 @@ a{
 	  text-align: left;
 	}
   }
+  
